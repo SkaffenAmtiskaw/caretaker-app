@@ -7,6 +7,8 @@ import {
 } from '@mantine/core';
 import type { Metadata } from 'next';
 
+import { fonts, theme } from '@/_theme';
+
 export const metadata: Metadata = {
   title: 'Care Circles',
   description: 'Caretaker app',
@@ -17,8 +19,8 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => (
     <head>
       <ColorSchemeScript />
     </head>
-    <body>
-      <MantineProvider>{children}</MantineProvider>
+    <body className={fonts.className}>
+      <MantineProvider theme={theme}>{children}</MantineProvider>
     </body>
   </html>
 );

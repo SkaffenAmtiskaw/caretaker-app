@@ -1,0 +1,73 @@
+type ColorPalette = readonly [
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+  string,
+];
+
+export const SLATE: ColorPalette = [
+  '#EFF3F8',
+  '#DBE3EE',
+  '#BECDDF',
+  '#9DB1CC',
+  '#8099BB',
+  '#6A86AD',
+  '#5A78A2',
+  '#475E83',
+  '#384A66',
+  '#29374B',
+];
+export const GRAY: ColorPalette = [
+  '#F7F8FA',
+  '#EDEFF3',
+  '#DCE0E7',
+  '#CBD1DB',
+  '#B0B8C5',
+  '#939CAC',
+  '#79828F',
+  '#5B636F',
+  '#3D434D',
+  '#23272E',
+];
+export const ALERT: ColorPalette = [
+  '#FCEBE8',
+  '#F8D5CF',
+  '#F1C7C1',
+  '#E79A8F',
+  '#DD7264',
+  '#D45343',
+  '#CB3F30',
+  '#BE3727',
+  '#99281B',
+  '#6E1C13',
+];
+export const SUCCESS: ColorPalette = [
+  '#ECF4EF',
+  '#D6E8DC',
+  '#B6D5C0',
+  '#93C0A2',
+  '#77AC86',
+  '#679E76',
+  '#5E9B73',
+  '#4A7D5D',
+  '#3A6149',
+  '#2B4736',
+];
+export const WARNING: ColorPalette = [
+  '#FAF1E1',
+  '#F4E0BF',
+  '#EBCB9A',
+  '#E0B370',
+  '#D69E4E',
+  '#CD9040',
+  '#C98A3C',
+  '#A06A28',
+  '#7C521E',
+  '#5A3B15',
+];
