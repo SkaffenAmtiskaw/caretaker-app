@@ -1,3 +1,5 @@
-export default function Home() {
-  return <div>This is the app!</div>;
-}
+import { Box } from "@mantine/core";
+
+const Page = () => <Box>This is the app!</Box>;
+
+export default Page;
