@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+.pnpm-store
 
 # testing
 /coverage
@@ -30,3 +31,6 @@ npm-debug.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# obsidian
+.obsidian
