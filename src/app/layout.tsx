@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => (
-  <html lang='en' {...mantineHtmlProps}>
+  <html lang="en" {...mantineHtmlProps}>
     <head>
       <ColorSchemeScript />
     </head>
