@@ -3,3 +3,5 @@ pre-commit:
     biome:
       run: pnpm exec biome check --write --staged --no-errors-on-unmatched
       stage_fixed: true
+    test:
+      run: pnpm test
