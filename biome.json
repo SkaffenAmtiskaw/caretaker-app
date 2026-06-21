@@ -23,6 +23,9 @@
     "enabled": true,
     "rules": {
       "recommended": true,
+      "correctness": {
+        "noUnusedImports": "error"
+      },
       "suspicious": {
         "noUnknownAtRules": "off"
       }

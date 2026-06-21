@@ -1,4 +1,4 @@
-import { Button, Container, Divider, Stack, Text, Title } from '@mantine/core';
+import { Container, Divider, Stack, Text, Title } from '@mantine/core';
 
 import { BrandTile } from '@/_components';
 import { FlowButton } from './FlowButton';
