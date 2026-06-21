@@ -1,13 +1,9 @@
 import '@mantine/core/styles.css';
 
-import {
-  ColorSchemeScript,
-  MantineProvider,
-  mantineHtmlProps,
-} from '@mantine/core';
+import { ColorSchemeScript, mantineHtmlProps } from '@mantine/core';
 import type { Metadata } from 'next';
 
-import { fonts, theme } from '@/_theme';
+import { fonts, ThemeProvider } from '@/_theme';
 
 export const metadata: Metadata = {
   title: 'Care Circles',
@@ -23,7 +19,7 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => (
       <ColorSchemeScript />
     </head>
     <body className={fonts.className}>
-      <MantineProvider theme={theme}>{children}</MantineProvider>
+      <ThemeProvider>{children}</ThemeProvider>
     </body>
   </html>
 );
