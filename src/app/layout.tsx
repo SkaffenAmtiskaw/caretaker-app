@@ -12,6 +12,9 @@ import { fonts, theme } from '@/_theme';
 export const metadata: Metadata = {
   title: 'Care Circles',
   description: 'Caretaker app',
+  appleWebApp: {
+    title: 'Care Circles',
+  },
 };
 
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => (

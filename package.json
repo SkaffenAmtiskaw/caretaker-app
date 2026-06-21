@@ -11,8 +11,11 @@
     "prepare": "lefthook install"
   },
   "dependencies": {
+    "@better-auth/mongo-adapter": "^1.6.19",
     "@mantine/core": "^9.3.2",
     "@mantine/hooks": "^9.3.2",
+    "better-auth": "^1.6.19",
+    "mongodb": "^7.3.0",
     "next": "16.2.9",
     "react": "19.2.4",
     "react-dom": "19.2.4"

@@ -144,3 +144,8 @@ A personal, opt-in display preference — large tap targets, reduced navigation 
 - Structure for free-text notes — plain text + timestamp, or tags/categories too?
 - Invite flow specifics — email vs. link, expiry?
 - Which screen to spec out first
+
+
+`EeD0QDlm415mGyKz`
+
+`mongodb+srv://mongodbdeletion756_db_user:EeD0QDlm415mGyKz@maincluster.3rdoopz.mongodb.net/?appName=MainCluster`

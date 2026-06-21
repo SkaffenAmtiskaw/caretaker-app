@@ -1,4 +1,4 @@
-import { createTheme } from '@mantine/core';
+import { createTheme, DEFAULT_THEME, mergeMantineTheme } from '@mantine/core';
 
 import { manrope } from './fonts';
 import { ALERT, GRAY, SLATE, SUCCESS, WARNING } from './palette';
@@ -21,3 +21,5 @@ export const theme = createTheme({
     warning: WARNING,
   },
 });
+
+export const mantineTheme = mergeMantineTheme(DEFAULT_THEME, theme);
